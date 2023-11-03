@@ -1,0 +1,133 @@
+:root{
+    --orange:#EB6440;
+    --oliva:#497174;
+    --white:#fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: var(--oliva);
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--orange);
+    justify-content: space-around;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+#navbar li a:hover{
+    text-shadow: 0 0 5px #000;
+    color: #000;
+}
+.logo{
+    rotate: 180deg;
+    width: 70px;
+    /* margin-right: 1000px; */
+    border-radius: 50%;
+}
+footer{
+    text-align: center;
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* padding: 100px; */
+    /* margin: 200px; */
+}
+.container img{
+    width: 30vw;
+}
+.cats-container img{
+    width: 20vw;
+}
+.cats-container2 img{
+    height: 30vw;
+}
+.cats-container3 img{
+    width: 60vw;
+}
+.cats-container4 img{
+    width: 20vw;
+}
+.cats-container5 img{
+    height: 45vh;
+}
+.cats-container6 img{
+    width: 60vw;
+}
+.cats-container{   
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 2px;
+}
+.cats-container2{   
+    display: flex;
+    justify-content: center;
+}
+.cats-container3{
+    display: flex;
+    justify-content: center;
+}
+.cats-container4{
+    display: flex;
+    justify-content: center;
+}
+.cats-container5{
+    display: flex;
+    justify-content: center;
+}
+.cats-container6{
+    display: flex;
+    justify-content: center;
+}
+.dupla{
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+article img:hover{
+    transition: 0.5s;
+    border: 1px solid var(--white);
+    box-shadow: 0 0 50px var(--white);
+}
+.btn-Login{
+    background-color: var(--orange);
+    border: none;
+    color: var(--white);
+    transition: 0.5s;
+    font-weight: bold;
+}
+.btn-Login:hover{
+    text-shadow: 0 0 5px #000;
+    color: #000;
+}
+.modal-content{
+    display: flex;
+    border-radius: 0px;
+}
+.btn-cadastro{
+    background-color: var(--orange);
+    padding: 20px;
+}
